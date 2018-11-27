@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'pg', group: :production
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -64,4 +65,3 @@ gem 'devise'
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 gem "font-awesome-sass"
-gem 'pg', group: :production
